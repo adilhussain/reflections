@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  when there are more than one contributors to the project, then we can keep our code
+  to a remote repository where others can see and can edit them.
