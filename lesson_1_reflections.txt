@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Diff operator exactly points out the line number in the two files which 
+	has changed. We just have to check out these kinds of bullets in the output.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    In long term, we could easily trace back to older versions of our file where
+	our code was stable, so that any new changes could be implemented again after 
+	the point where our application was stable.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: By committing manually,we could easily track all the commits we made.
+			Seeing some commit history that we're unaware of could overwhelm us. 
+	cons: Automatically saved versions lack the point that we should make a commit
+		 after every logical change.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    This is because when we would like to view the commit history of a file, then 
+	it should show us the commit history of all the other files in the repository too,
+	which are related to the original file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will list all the commit history with the author name, date modified,
+	and the message describing the commit
+	git diff will show the lines which are added and lines which were removed between 
+	the first commit id and the second commit id
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	I can always revert back to any version of my project using git
+    
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I will use it to make a project
